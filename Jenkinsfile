@@ -18,7 +18,7 @@ pipeline {
         stage ('Build and Push') {
             steps {
                             withCredentials([[$class: 'UsernamePasswordMultiBinding', 
-                            credentialsId: 'f6857cca-9128-4de3-9a0b-a4f12d56a723',
+                            credentialsId: 'fa4aa5a6-5908-41e3-8cf2-ed217a301ecd',
                             usernameVariable: 'REGISTRY_USER', 
                             passwordVariable: 'REGISTRY_PASSWORD']]) {
                         sh 'docker build -t ${REGISTRY_USER}/${PROJECT} .'
