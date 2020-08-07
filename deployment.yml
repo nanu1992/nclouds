@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: myappms
-        image: sunny92/myboard
+        image: nginx
         ports:
         - containerPort: 80
 ---
