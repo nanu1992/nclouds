@@ -2,7 +2,7 @@ pipeline {
     agent any
     environment {
         //variable for image name
-        PROJECT = "pytestproject"
+        PROJECT = "myprojtest"
     }
     stages {
         stage('Initialize') {
